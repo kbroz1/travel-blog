@@ -1,0 +1,71 @@
+body {
+    background-color: #ACC335;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #421B32;
+}
+
+h2{
+font-size: 27px;
+color: #8F174F;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexbox-item {
+    width: 350px;
+    height:400px;
+
+}
+
+.one {
+    flex-shrink: 0;
+    flex-grow: 1;
+  
+}
+
+.two {
+    flex-grow: 2;
+    flex-shrink: 1;
+  
+}
+
+.three {
+    flex-shrink: 0;
+    flex-grow: 0;
+   
+}
+
+.second-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-content:space-around;
+}
+
+.four {
+
+}
+
+.five {
+    flex-grow: 2;
+    flex-shrink: 1;
+}
