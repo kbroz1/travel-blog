@@ -1,21 +1,45 @@
 body {
     background-color: #ACC335;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 65px;
     color: #421B32;
 }
 
 h2{
-font-size: 27px;
+font-size: 50px;
 color: #8F174F;
+margin: 20px;
+}
+
+.peru-h2{
+    text-align: left;
+
+}
+
+.thai-h2{
+    text-align:right;
+
+}
+
+.ice-h2{
+    text-align:left;
+
+}
+
+h4{
+    font-size: 28px;
 }
 
 img {
-    width: 300px;
-    height: 250px;
+    width: 400px;
+    height: 350px;
+}
+p {
+    font-size: 22px;
 }
 
 a {
@@ -27,30 +51,36 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    align-content:space-around;
+    
 }
 
 .flexbox-item {
     width: 350px;
     height:400px;
+    margin: 10px;
+    padding: 10px;
 
 }
 
 .one {
     flex-shrink: 0;
-    flex-grow: 1;
+    flex-grow: 2;
   
 }
 
 .two {
     flex-grow: 2;
     flex-shrink: 1;
-  
+    border: 1px gold solid;
+    border-radius: 5px;
 }
 
 .three {
-    flex-shrink: 0;
+    flex-shrink: 1;
     flex-grow: 0;
+    border: 1px gold solid;
+    border-radius: 5px;
    
 }
 
@@ -62,12 +92,16 @@ a {
 }
 
 .four {
+    flex-shrink: 0;
+    flex-grow: 2;
 
 }
 
 .five {
     flex-grow: 2;
     flex-shrink: 1;
+    border: 1px gold solid;
+    border-radius: 5px;
 }
 
 .six {
@@ -79,5 +113,30 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+    align-content:space-around;
     justify-content: flex-start;
+}
+
+.seven {
+    flex-grow: 4;
+    flex-shrink: 2;
+    width: 100px;
+    height: 100px;
+}
+
+.eight {
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 400px;
+    height: 400px;
+    border: 1px gold solid;
+    border-radius: 5px;
+
+}
+
+.nine {
+    flex-shrink: 1;
+    flex-grow: 0;
+    border: 1px gold solid;
+    border-radius: 5px;
 }
